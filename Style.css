@@ -1,0 +1,148 @@
+body {
+	background-color: #d9d9d9;
+}
+.container{
+	background-color:white;
+	max-width: 66%;
+	height: 2750px;
+	margin: auto;
+	border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.menu{
+  display:flex;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 40px 10px;
+  cursor: pointer;
+  border-radius: 100px;
+}
+.button:hover{
+    background-color: #3e8e41;
+}
+
+.Picture1 {
+  border:4px solid #4CAF50;
+  width: 950px; 
+  height: 600px;
+  background-image: url('background.jpg');  
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 50px;
+  object-fit: cover;
+  object-position: bottom;
+}
+.slider-frame {
+  overflow: hidden;
+  height: 200px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border:4px solid #4CAF50;
+}
+
+@keyframes slide_animation {
+  0% {left: 0;}
+  20% {left: 0;}
+  25% {left: -400px;}
+  45% {left: -400px;}
+  50% {left: -800px;}
+  70% {left: -800px;}
+  75% {left: -1200px;}
+  95% {left: -1200px;}
+  100% {left: -1600px;}
+}
+
+.slide-images {
+  width: 4200px;
+  height: 200px;
+  position: relative;
+  animation-name: slide_animation;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
+
+.img-container {
+  height: 200px;
+  width: 400px;
+  float: left;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9{
+  margin-bottom: 3px;
+  margin-left: 40px;
+}
+.input1,.input2,.input3,.input4,.input5,.input6,.input7,.input8{
+  display: block;
+  margin-left:40px;
+  width:500px;
+}
+@font-face {
+  font-family: Agbalumo;
+  src: url('https://fonts.gstatic.com/s/agbalumo/v2/55xvey5uMdT2N37KZfMCgLg.woff2');
+}
+@font-face{
+  font-family: Abhaya;
+  src: url('https://fonts.gstatic.com/s/abhayalibre/v14/e3t5euGtX-Co5MNzeAOqinEYo23CrdZJ.woff2');
+}
+@font-face{
+  font-family: Carlsons;
+  src: url('Carlsonscript-Regular.woff2');
+}
+.shadow1,.shadow2,.shadow3,.shadow4{
+  text-shadow: -3px 2px 0px #00b3b3;
+}
+.beachlogo{
+  padding:10px 0px 10px 10px;
+  width:110px;
+  height:105px
+}
+@media only screen and (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .button {
+        margin-top: 0px;
+    }
+
+    .slider-frame {
+        display: none; /* Hide slider on smaller screens */
+    }
+
+    td.Picture1 {
+        font-size: 40px;
+    }
+
+    td {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    td.Picture1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    td.Picture1 {
+        font-size: 25px;
+    }
+}

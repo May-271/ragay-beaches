@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Carlson Catchword';
+    src: url('CarlsonCatchwordRegular.eot');
+    src: local('Carlson Catchword'), local('CarlsonCatchwordRegular'),
+        url('CarlsonCatchwordRegular.eot?#iefix') format('embedded-opentype'),
+        url('CarlsonCatchwordRegular.woff2') format('woff2'),
+        url('CarlsonCatchwordRegular.woff') format('woff'),
+        url('CarlsonCatchwordRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Carlson script';
+    src: url('Carlsonscript-Regular.eot');
+    src: local('Carlson script Regular'), local('Carlsonscript-Regular'),
+        url('Carlsonscript-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Carlsonscript-Regular.woff2') format('woff2'),
+        url('Carlsonscript-Regular.woff') format('woff'),
+        url('Carlsonscript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CarlsonSlab';
+    src: url('CarlsonSlabRegular.eot');
+    src: local('CarlsonSlab'), local('CarlsonSlabRegular'),
+        url('CarlsonSlabRegular.eot?#iefix') format('embedded-opentype'),
+        url('CarlsonSlabRegular.woff2') format('woff2'),
+        url('CarlsonSlabRegular.woff') format('woff'),
+        url('CarlsonSlabRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
